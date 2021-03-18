@@ -1,0 +1,11 @@
+[Unit]
+Description=This is ma WORK service
+
+[Service]
+ExecStart=/home/vlad/Source/ITS/work.sh
+WorkingDirectory=/home/vlad/Source/ITS
+User=vlad
+Group=vlad
+
+[Install]
+WantedBy=multi-user.target
